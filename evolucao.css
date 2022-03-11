@@ -1,0 +1,79 @@
+
+#container_main {
+    width: 940px;
+    margin: 50px auto;
+    padding: 20px 0;
+}
+
+#atleta__aquecendo {
+  width: 30%;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+.container > p {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 200;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.container {
+  margin: 100px 0 50px;
+  background: rgba(255,255,255,0.15);
+  outline: none;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.7);
+  border-radius: 20px;
+}
+
+
+form input, form label, form button {
+  display: block;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: red;
+  margin: 0;
+  padding: 8px;
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  cursor: pointer;
+  margin: 30px 0 50px;
+  border-radius: 10px;
+}
+
+.botao__deletar {
+    font-size: 1em;
+    height: 30px;
+    width: 80px;
+    background: #F2163E;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    bottom: 80px;
+    color: white;
+}
+
+#botao__adicionar {
+  font-size: 1.3em;
+  font-weight: 600;
+    height: 50px;
+    width: 200px;
+    background: #F2A007;
+    border-radius: 15px;
+    cursor: pointer;
+    bottom: 80px;
+    border: unset;
+    color: #4A0D73;
+    margin-top: 20px;
+}

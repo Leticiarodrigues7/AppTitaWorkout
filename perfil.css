@@ -1,0 +1,7 @@
+body {
+    font-family: 'open sans', sans-serif;
+}
+.dados__cadastrados > label {
+    margin: 4px;
+}
+

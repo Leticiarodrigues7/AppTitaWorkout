@@ -1,0 +1,120 @@
+:root {
+    --input-linear: linear-gradient(120deg, white, red);
+    --button-linear: linear-gradient(120deg, rgb(83, 0, 0), red, rgb(83, 0, 0));
+}
+
+body {
+    background-image: linear-gradient(170deg, #4A0D73, #801062, #F2163E);
+    font-family: 'open sans', sans-serif;
+}
+
+.login {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login__brand {
+    width: 200px;
+    position: absolute;
+    top: 100px; 
+}
+
+.login__container {
+    width: 400px;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 210px;
+}
+
+.login__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__input {
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-color: #F2A007;;
+    outline: none;
+    border-radius: 15px;
+}
+
+.login__input-border {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.login__input:focus + .login__input-border::after {
+    width: 100%;
+}
+
+#botao__submit, .login__submit {
+    color: #F2163E;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login__submit {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    background: white;
+    background-size: 200%;
+    margin-bottom: 32px;
+    border: unset;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+
+.login__reset {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.login__form > button > a {
+    text-decoration: none;
+    color: #4A0D73;
+    font-weight: 200;
+    font-size: 14px;
+    margin: auto;
+}
+
+.login__newAccount {
+    height: 35px;
+    width: 50%;
+    background: #F2A007;
+    background-size: 200%;
+    margin-bottom: 32px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.login__newAccount:hover {
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

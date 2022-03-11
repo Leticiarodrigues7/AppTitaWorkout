@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(170deg, #4A0D73, #801062, #F2163E);
+    padding: 25px 0;
+}
+
+body {
+    font-family: 'open sans', sans-serif;
+}
+
+.container__header {
+    width: 940px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#brand {
+    width: 200px;
+    position: relative;
+    margin: -50px;
+}
+
+nav {
+    margin-top: 10px;
+    right: 0; 
+}
+
+li {
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: #F2163E;
+}
+
+li > button > a {
+    color: #801062;
+}
+
+li > button  {
+    margin-top: auto;
+    font-size: 1em;
+    height: 30px;
+    width: 80px;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 200;
+    padding: 50px;
+    text-align: center;
+}
+
+#texto__objetivo > h2 {
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    font-size: 3em;
+    font-weight: 200;
+    color: #fff;
+}
+
+#card {
+    margin: 50px 50px;
+}
+
+.cadastro__rodape {
+    background: rgb(233, 233, 233);
+   
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
+#copy__right {
+    text-align: center;
+    color: #1a1a1a;
+    margin: auto 0;
+    padding-top: 15px;
+}
+
+#copy__right {
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background-image: linear-gradient(170deg, #4A0D73, #801062, #F2163E);
+}
+

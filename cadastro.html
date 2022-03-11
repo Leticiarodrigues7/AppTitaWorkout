@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="stylesheet" href="./cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <a href="./index.html"><img id="brand" src="../img/logo.svg" alt="logo freedom"></a>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Perfil.html">Perfil</a></li>
+                    <li><a href="./evolucao.html">Evolução</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><button><a href="./login.html">Login</a></button></li>
+                  </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <p class="cadastro__dados">Informe seus dados</p>
+            
+            <input class="cadastro__form" type="text" placeholder="email" id="cadastro__email">
+            <span class="cadastro__input-border"></span>
+            <input class="cadastro__form" type="text" placeholder="senha" id="cadastro__senha">
+            <span class="cadastro__input-border"></span>
+            <input class="cadastro__form" type="text" placeholder="nome" id="cadastro__nome">
+            <span class="cadastro__input-border"></span>
+            <input class="cadastro__form" type="text" placeholder="idade" id="cadastro__idade">
+            <span class="cadastro__input-border"></span>
+            <input class="cadastro__form" type="text" placeholder="peso" id="cadastro__peso">
+            <span class="cadastro__input-border"></span>
+            <input class="cadastro__form" type="text" placeholder="altura" id="cadastro__altura">
+            <span class="cadastro__input-border"></span>
+            
+            <div class="cadastro__radio">
+                <div class="emagrecer">
+                    <p>você quer emagrecer?</p>
+                    <label for="radio__sim"><input type="radio" 
+                        name="emagrecer" value="sim" id="radio__sim"> sim</label>
+                    <label for="cadastro__nao"><input type="radio" 
+                        name="emagrecer" value="não" id="radio__nao"> não</label>
+             </div>   
+
+            <div class="select">
+                <p id="periodo">Qual período prefere se exercitar?</p>
+                <select class="cadastro__salvar" name="horarios">
+                    <option class="option" value="#">Manhã</option>
+                    <option class="option" value="#">Tarde</option>
+                    <option class="option" value="#">Noite</option>
+                </select>
+            </div>
+                
+                <div class="minutos">
+                    <p>quanto tempo você pode treinar por dia?</p>
+                    <label for="radio__dez-vinte"><input type="radio" 
+                        name="tempo" value="de 10 a 20 minutos" id="radio__dez-vinte"> de 10 a 20 min.</label>
+                    <label for="radio__vinte-trinta"><input type="radio" 
+                        name="tempo" value="de 20 a 30 minutos" id="radio__vinte-trinta"> de 20 a 30 min.</label>
+                    <label for="radio__trinta-cinquenta"><input type="radio" 
+                        name="tempo" value="de 30 a 50 minutos" id="radio__trinta-cinquenta"> de 30 a 50 min.</label>
+                </div>
+
+                <div class="dia">
+                    <p>quantos dias por semana você tem disponível para se exercitar?</p>
+                    <label for="radio__dois"><input type="radio" 
+                        name="dias" value="2x por semana" id="radio__dois"> 2x por semana</label>               
+                    <label for="radio__tres"><input type="radio" 
+                        name="dias" value="3x por semana" id="radio__tres"> 3x por semana</label>              
+                    <label for="radio__cinco"><input type="radio" 
+                        name="dias" value="5x por semana" id="radio__cinco"> 5x por semana</label>
+                </div>
+            </div>
+            <button class="cadastro__salvar"><a href="./index.html">Salvar</a></button>
+            
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <footer class="cadastro__rodape">
+        <p id="copy__right">&copy; Copyright Tita - 2022</p>
+    </footer>
+</body>
+</html>
